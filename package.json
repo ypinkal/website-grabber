@@ -1,0 +1,29 @@
+{
+  "name": "asp-page-converter",
+  "version": "0.0.1",
+  "description": "Simple converter of server rendered asp page into static html page.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ypinkal/asp-page-converter.git"
+  },
+  "keywords": [
+    "asp",
+    "static",
+    "html"
+  ],
+  "author": "Yevhenii Pinkal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ypinkal/asp-page-converter/issues"
+  },
+  "homepage": "https://github.com/ypinkal/asp-page-converter#readme",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "fs": "0.0.1-security",
+    "request": "^2.79.0"
+  }
+}
