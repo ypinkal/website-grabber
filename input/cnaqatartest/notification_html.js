@@ -1,0 +1,7 @@
+// notification body's can be any html string or just string
+var notification_html = [];
+notification_html[0] = '<div class="activity-item"> <i class="fa fa-tasks text-warning"></i> <div class="activity">Get Your Beginning of Semester <a href="https://d2l.cna-qatar.edu.qa/BeginSemesterChecklist.pdf" target="_blank" >D2L Checklist </a><span><a href="https://d2l.cna-qatar.edu.qa/BeginSemesterChecklist.pdf" target="_blank"></a></span> </div> </div>',
+    notification_html[1] = '<div class="activity-item"> <i class="fa fa-check text-success"></i> <div class="activity">Faculty: <a href="helpfaculty2.aspx#2">Need Training? </a><br /></div> </div>',
+    notification_html[2] = '<div class="activity-item"> <i class="fa fa-check text-success"></i> <div class="activity"><a href="helpfaculty2.aspx">Need help with D2L? </a><br />Find out how we can help you use D2L in your classes.</span> </div> </div>',
+    notification_html[3] = '<div class="activity-item"> <i class="fa fa-heart text-danger"></i> <div class="activity">Improve your skills! The CTE, in building 12, can help. Watch our video!<span>35 minutes ago</span> </div> </div>',
+    notification_html[4] = '<div class="activity-item"> <i class="fa fa-shopping-cart text-success"></i> <div class="activity">Deans! Explore how you can improve the tech skill set in your department.<span><a href="contact.aspx">Contact us today!</a></span> </div> </div>';

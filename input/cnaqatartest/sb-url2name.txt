@@ -1,0 +1,13 @@
+https://cnaqatartest.brightspace.com/login.aspx	index
+https://cnaqatartest.brightspace.com/search/index.html	default
+https://cnaqatartest.brightspace.com/calendar.html	calendar
+https://cnaqatartest.brightspace.com/helpfaculty2.aspx	helpfaculty2
+https://cnaqatartest.brightspace.com/news.aspx	news
+https://cnaqatartest.brightspace.com/contact.aspx	contact
+https://cnaqatartest.brightspace.com/videofaculty.aspx	videofaculty
+https://cnaqatartest.brightspace.com/cli.aspx	cli
+https://cnaqatartest.brightspace.com/isw.aspx	isw
+https://cnaqatartest.brightspace.com/takeourstuff.aspx	takeourstuff
+https://cnaqatartest.brightspace.com/ebookhelp.aspx	ebookhelp
+https://cnaqatartest.brightspace.com/news-item.aspx	news-item
+https://cnaqatartest.brightspace.com/cynthia.welsh@cna-qatar.edu.qa	log

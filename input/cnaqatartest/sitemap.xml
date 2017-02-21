@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../sitemap.xsl" type="text/xsl" media="all"?>
+<site>
+<page file="index.html" text="D2L | Portal Home" title="D2L | Portal Home">
+<page file="helpfaculty2.html" text="HELP" title="Help | D2L">
+<page file="ebookhelp.html" text="eBooks" title="Process | D2L Ebooks"/>
+</page>
+<page file="videofaculty.html" text="VIDEOS" title="Videos | D2L"/>
+<page file="news.html" text="NEWS" title="News | D2L">
+<page file="news-item.html" text="" title="News Item | D2L"/>
+</page>
+<page file="contact.html" text="CONTACT" title="Contact | D2L"/>
+<page file="default.html" text="SEARCH" title="Search"/>
+<page file="cli.html" text="What is CTE?" title="CTE | D2L"/>
+<page file="isw.html" text="Instructor Skills Workshops (ISW)" title="ISW | D2L">
+<page file="log.html" text="cynthia.welsh@cna-qatar.edu.qa" title="log.html"/>
+</page>
+<page file="takeourstuff.html" text="Take Our Stuff!" title="Stuff | D2L"/>
+<page file="calendar.html" text="" title="calendar.html"/>
+</page>
+</site>

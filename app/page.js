@@ -3,6 +3,7 @@ let fs = require('fs');
 let cheerio = require('cheerio');
 let File = require('./file');
 
+//TODO remove dependencies
 let StylesProcessor = require('./styles-processor');
 let ImagesProcessor = require('./images-processor');
 let ScriptsProcessor = require('./scripts-processor');
@@ -90,6 +91,38 @@ class Page {
     processScripts() {
         this._scriptsProcessor.setCheerioObject(this.$);
         return this._scriptsProcessor.processScripts();
+    }
+
+    refactorAfterGrabbing(inputFolderName) {
+        console.log('Refactoring after grabbing - Started');
+
+        this.readFilesInFolder(inputFolderName)
+            .then(files => this.changeStylesPath(files))
+            .catch(error => { console.log(error) })
+            // .then(() => this.readFilesInFolder(inputFolderName))
+            // .then(files => this.changeScriptsPath(files))
+            // .catch(error => { console.log(error) })
+            // .then(() => this.readFilesInFolder(inputFolderName))
+            // .then(files => this.changeImagesPath(files))
+            // .catch(error => { console.log(error) })
+            .then(() => {
+                console.log('path correction is performed');
+            });
+
+
+
+
+    }
+
+    readFilesInFolder(inputFolderName) {
+        fs.readdir(inputFolderName,function(err, files){
+            if (err) {
+                return console.error(err);
+            }
+            files.forEach( function (file){
+                console.log( file );
+            });
+        });
     }
 }
 
